@@ -48,3 +48,74 @@ header{
     font-weight: 900;
     line-height: 95px;
 }
+
+/* discount related style */
+.discount{
+    max-width: 802px;
+    text-align: center;
+    font-family: 'inter', serif;
+    color: #f00;
+    margin-bottom: 100px;
+}
+.discount-sub-heading{
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-description{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 6px 0;
+}
+.discount-heading{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+/* welcome section related style */
+.welcome{
+    background-image: url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.welcome-wrapper{
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.welcome-content{
+    max-width: 690px;
+    color: #FFF;
+}
+.welcome-content .welcome-heading{
+    font-family: 'Merriweather' serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome-content .welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 45px 0;
+}
+.join-btn{
+    border: 0;
+    background: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+.welcome-img{
+    max-width: 319px;
+    text-align: center;
+}
