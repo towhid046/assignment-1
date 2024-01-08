@@ -255,3 +255,19 @@ header{
     align-self: flex-end;
     margin-bottom: 225px;
 }
+/* gift section related style */
+.gift{
+    margin-bottom: 100px;
+}
+.gift-content{
+    margin-bottom: 48px;
+    max-width: 896px;
+}
+.gift-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.gift-images img{
+    width: 424px;
+}
