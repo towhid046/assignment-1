@@ -165,6 +165,10 @@ header{
     background-color: #f00;
     border: none;
     cursor: pointer;
+    transition: .4s;
+}
+.join-now-btn:hover{
+    background-color: rgb(248, 72, 72);
 }
 
 /* best offer section relate style */
@@ -278,8 +282,12 @@ header{
 }
 .gift-images img{
     width: 424px;
+    transition: .4s;
+    cursor: pointer;
 }
-
+.gift-images img:hover{
+    transform: translateY(-10px);
+}
 /* subscribe section related style */
 .subscribe{
     margin-bottom: 100px;
@@ -320,8 +328,11 @@ header{
     border-radius: 0 50px 50px 0;
     cursor: pointer;
     margin-left: -4px;
+    transition: .4s;
 }
-
+.subscribe-form input[type='submit']:hover{
+    background-color: rgb(248, 72, 72);
+}
 /* footer related style */
 footer{
     background: #070211;
